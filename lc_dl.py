@@ -19,7 +19,7 @@ lc.plot()
 # (TTwTT) BEAUTIFULLLL
 
 #clip weird dip at beginning of curve
-mask = (lc.time > 1572)
+mask = (lc.time.value > 1572)
 masked_lc = lc[mask]
 masked_lc.plot()
 
